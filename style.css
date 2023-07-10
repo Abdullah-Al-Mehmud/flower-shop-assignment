@@ -128,6 +128,7 @@
 .delivery-section {
   display: flex;
   justify-content: center;
+  padding-bottom: 150px;
 }
 .delivery-items {
   display: flex;
@@ -151,4 +152,42 @@
 
 /* delivery section ends  */
 
+/* discount sections start */
+.discount {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 100px;
+}
+.discount-section-items {
+  text-align: center;
+}
+.discount-section-items h3 {
+  color: #272727;
+  font-size: 30px;
+}
+.discount-section-items h3 span {
+  color: #e55473;
+}
+.discount-section-items p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  margin-top: 15px;
+}
+.discount-section-items button {
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  background: #e55473;
+  margin-top: 20px;
+}
+.discount-section-items img {
+  width: 300px;
+}
+/* discount sections ends */
 /* main sections ends */
