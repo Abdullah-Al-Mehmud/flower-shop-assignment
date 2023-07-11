@@ -191,6 +191,47 @@
 }
 /* discount sections ends */
 
+/* product section start */
+.product-section {
+  text-align: center;
+  padding: 0px 0px 120px 0px;
+}
+.product-section h3 {
+  color: #272727;
+  font-size: 30px;
+}
+.product-section p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  margin-top: 15px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  gap: 30px;
+}
+.product-items img {
+  height: 300px;
+}
+.product-items span {
+  display: block;
+  color: #e55473;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.product-items button {
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  background: #e55473;
+  margin-top: 15px;
+}
+/* product section ends */
+
 /* instagram section start */
 .instagram {
   text-align: center;
